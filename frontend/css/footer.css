@@ -1,0 +1,35 @@
+.footer {
+    width: 100%;
+    background-color: #f2c307;
+    padding: 20px 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 50px;
+}
+
+.footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer ul h1 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.footer ul li {
+    margin-bottom: 10px;
+}
+ww p {
+    text-align: justify;
+}
+
+.footer a {
+    color: white;
+}
+
+.footer p {
+    max-width: 300px;
+}
