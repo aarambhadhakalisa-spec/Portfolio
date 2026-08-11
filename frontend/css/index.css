@@ -1,40 +1,77 @@
-body {
-    background-color: #f5f5f5;
-    font-family: Arial;
-    margin: 0;
-    padding: 20px;
+body{
+    margin: 0%;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    background-color: white;
 }
 
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: 60px auto;
+    padding: 50px;
+    background-color: white ;
+    border: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px black;
+}
 
-h1 {
-    color: #f2c307;
+.about-text{
+    flex: 5;
+    min-width: 100px;
+    color: black;
+
+}
+
+.about-text h1{
+      color: black;
     font-size: 30px;
+    min-width: 250px;
+    margin-top: 40px;
 }
 
-p {
-    color: #333;
-    font-size: 18px;
-    line-height: 1.6;
+.about-text h2{
+    color: red;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.about-text p{
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
     text-align: justify;
 }
 
-img {
-    width: 300px;
-    margin-top: 20px;
-    border-radius: 10px;
+.about-img{
+    width:220px;
+    height: 220px;
+    object-fit:cover;
+    border-radius: 50%;
+    border: 6px solid hsl(19, 92%, 44%);
+    box-shadow: 0 4px 20px rgba(17, 5, 234, 0.08);
+    margin-bottom: 180px;
+
 }
 
-li {
+.contact-list {
     list-style: none;
+    padding: 0;
+    margin-top: 20px;
 }
 
-ul {
-    color: #333;
-    font-size: 17px;
-    margin: 15px;
+.contact-list li {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #666;
 }
 
-a {
-    color: #f2c307;
-    font-weight: bold;
+.contact-list a {
+    color: #d54a09;
+    text-decoration: underline;
 }
