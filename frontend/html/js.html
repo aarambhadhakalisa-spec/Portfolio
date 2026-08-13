@@ -11,8 +11,13 @@
     <p id = "demo">Click the button the change the text</p>
     <p id = "demo2">Hello JavaScript How are you</p>
 
+
+
     <button onclick="myFunction()">Click Me</button>
     <button onclick="myFunction2()">Click Me2</button>
+    <button onclick="myFunction3()">Click to change background colour</button>
+    <button onclick="myFunction4()">Click to change to original</button>
+
 
     <script>
 
@@ -23,6 +28,16 @@
          function myFunction2(){
             document.getElementById("demo2").innerHTML = "Hello JavaScript2"
         }
+
+        function myFunction3(){
+        document.body.style.backgroundColor = "#87cefa";
+        }
+
+        function myFunction4(){
+        document.body.style.backgroundColor = "#FFFFFF";
+    }
+
+
 
     </script>
     
